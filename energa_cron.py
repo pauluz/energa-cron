@@ -52,12 +52,12 @@ try:
         config_data = json.load(config_file)
         
     # Ustawienia poczty
-    EMAIL_TO = config_data.get("EMAIL_TO")
+    EMAIL_TO    = config_data.get("EMAIL_TO")
     SMTP_SERVER = config_data.get("SMTP_SERVER")
-    SMTP_PORT = config_data.get("SMTP_PORT", 465)
-    SMTP_USER = config_data.get("SMTP_USER")
-    SMTP_PASS = config_data.get("SMTP_PASS")
-    USE_SSL = config_data.get("USE_SSL", True)
+    SMTP_PORT   = config_data.get("SMTP_PORT", 465)
+    SMTP_USER   = config_data.get("SMTP_USER")
+    SMTP_PASS   = config_data.get("SMTP_PASS")
+    USE_SSL     = config_data.get("USE_SSL", True)
     
     # Ustawienia poszukiwań
     ENERGA_URL  = config_data.get("ENERGA_URL")

@@ -1,13 +1,13 @@
 {
-"EMAIL_TO":    "twoj@email.pl",
+  "EMAIL_TO":    "twoj@email.pl",
 
-"SMTP_SERVER": "smtp.twojadomena.pl",
-"SMTP_PORT":   465,
-"SMTP_USER":   "<login-do-skrzynki>",
-"SMTP_PASS":   "<haslo>",
-"USE_SSL":     true,
+  "SMTP_SERVER": "smtp.twojadomena.pl",
+  "SMTP_PORT":   465,
+  "SMTP_USER":   "<login-do-skrzynki>",
+  "SMTP_PASS":   "<haslo>",
+  "USE_SSL":     true,
 
-"ENERGA_URL": "https://energa-operator.pl/uslugi/awarie-i-wylaczenia/wylaczenia-planowane",
-"CITY":       "Olsztyn",
-"STREET":     "Tczewska"
+  "ENERGA_URL": "https://energa-operator.pl/uslugi/awarie-i-wylaczenia/wylaczenia-planowane",
+  "CITY":       "Olsztyn",
+  "STREET":     "Tczewska"
 }
